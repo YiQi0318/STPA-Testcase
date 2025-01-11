@@ -1,0 +1,17 @@
+Unsafe Control Actions (UCAs):
+UCA1:
+  Controller: Safety Driver
+  CA Type: provides
+  Controlled Part: Brake-by-Wire(BBW)
+  Context: 1. Due to the safety driver being distracted by a mobile device, when the vehicle in front suddenly stops.
+2. When the safety driver has a medical emergency (e.g., heart attack, seizure), causing erratic or no input on the Brake-by-Wire system.
+3. Due to the safety driver's lack of training or understanding of the Brake-by-Wire system, when a pedestrian unexpectedly crosses the road.
+4. When the safety driver is under the influence of alcohol or drugs, impairing their reaction time and ability to operate the Brake-by-Wire system effectively.
+5. Due to the safety driver falling asleep at the wheel, when the vehicle is at high speed on a highway.
+6. When the safety driver is experiencing high stress or panic, leading to overreaction or incorrect use of the Brake-by-Wire system.
+7. Due to the safety driver's misjudgment of distance or speed of an approaching object or vehicle, when visibility is poor due to weather conditions.
+8.
+  Linked Hazards: Based on the provided contexts, the following hazard identifiers could be linked to the action:
+
+[H1] - Distraction: This hazard is related to the safety driver being distracted by a mobile device, which could cause an accident if the vehicle in front suddenly
+sdfgcftcfh

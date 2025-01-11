@@ -1,0 +1,201 @@
+Unsafe Control Actions (UCAs):
+UCA1:
+  Controller: Safety Driver
+  CA Type: provides
+  Controlled Part: Brake-by-Wire(BBW)
+  Context: 1. Due to the safety driver being distracted by a mobile device, when the vehicle in front suddenly stops.
+2. When the safety driver has a medical emergency (e.g., heart attack, seizure), causing erratic or no input on the Brake-by-Wire system.
+3. Due to the safety driver's lack of training or understanding of the Brake-by-Wire system, when a pedestrian unexpectedly crosses the road.
+4. When the safety driver is under the influence of alcohol or drugs, impairing their reaction time and ability to operate the Brake-by-Wire system effectively.
+5. Due to the safety driver falling asleep at the wheel, when the vehicle is at high speed on a highway.
+6. When the safety driver is experiencing high stress or panic, leading to overreaction or incorrect use of the Brake-by-Wire system.
+7. Due to the safety driver's misjudgment of distance or speed of an approaching object or vehicle, when visibility is poor due to weather conditions.
+8.
+  Linked Hazards: Based on the provided contexts, the following hazard identifiers could be linked to the action:
+
+[H1] - Distraction: This hazard is related to the safety driver being distracted by a mobile device, which could cause an accident if the vehicle in front suddenly
+
+UCA2:
+  Controller: Safety Driver
+  CA Type: not provides
+  Controlled Part: Brake-by-Wire(BBW)
+  Context: 1. Due to the safety driver being distracted by a mobile phone call, causing them to not provide the necessary control action to the Brake-by-Wire (BBW) system.
+2. When the safety driver experiences sudden health issues, such as a heart attack or fainting, resulting in the inability to provide the necessary control action to the Brake-by-Wire (BBW) system.
+3. Due to the safety driver being under the influence of alcohol or drugs, impairing their ability to provide the necessary control action to the Brake-by-Wire (BBW) system.
+4. When the safety driver is unfamiliar with the vehicle's interface or the Brake-by-Wire (BBW) system, leading to them not providing the necessary control action.
+5. Due to the safety driver experiencing fatigue or drowsiness, causing a delay or failure in providing the necessary control action to the Brake-by-Wire (BBW) system.
+6. When the safety driver is overwhelmed by high-stress
+  Linked Hazards: Based on the given scenarios, the hazard identifiers linked to the action could be:
+
+[H1]: Hazard due to safety driver's distraction (mobile phone usage)
+[H1, H2]: Hazard due to safety driver's sudden health issues (heart attack,
+
+UCA3:
+  Controller: Safety Driver
+  CA Type: too early
+  Controlled Part: Brake-by-Wire(BBW)
+  Context: 1. Due to the safety driver misinterpreting the vehicle's speed and distance from an obstacle, causing the brakes to be applied too early.
+2. When the safety driver is distracted by an external event, leading to premature application of the Brake-by-Wire (BBW) system.
+3. Due to a malfunction in the vehicle's speedometer, leading the safety driver to perceive the vehicle to be moving faster than it actually is, and hence applying the brakes too early.
+4. When the safety driver is under the influence of substances that impair judgment, resulting in the Brake-by-Wire (BBW) system being activated too early.
+5. Due to the safety driver's lack of experience or training, leading to a misunderstanding of when to apply the Brake-by-Wire (BBW) system.
+6. When the safety driver is fatigued or drowsy, causing a lapse in attention and premature application of the Brake-by-Wire (BBW) system.
+7. Due
+  Linked Hazards: Based on the given context, the hazard identifiers that could be linked to the action could be:
+
+[H1]: Misinterpretation of vehicle's speed and distance from an obstacle by the safety driver leading to early application of brakes.
+[H1, H2
+
+UCA4:
+  Controller: Safety Driver
+  CA Type: too late
+  Controlled Part: Brake-by-Wire(BBW)
+  Context: 1. Due to the safety driver being distracted by a phone call, leading to a delayed response in pressing the Brake-by-Wire (BBW) system.
+2. When the safety driver is temporarily blinded by the high beam of an oncoming vehicle, causing a late reaction in activating the BBW.
+3. Due to the safety driver suffering from fatigue, which resulted in a slow response in engaging the BBW.
+4. When the safety driver is navigating through heavy fog or rain, impairing visibility and causing a delay in the application of the BBW.
+5. Due to the safety driver's unfamiliarity with the vehicle's controls, leading to a delayed response in pressing the BBW.
+6. When the safety driver is trying to avoid an animal crossing the road, causing a late reaction in activating the BBW.
+7. Due to the safety driver's reaction being impaired by alcohol or drugs, resulting in a late activation of the BBW system.
+8. When the safety driver is
+  Linked Hazards: Given the context and control action type, the following hazard identifiers could be linked:
+
+1. [H1]: Hazard due to distraction from phone call causing delayed response in pressing the Brake-by-Wire (BBW) system.
+2. [H1
+
+UCA5:
+  Controller: Safety Driver
+  CA Type: stopped too soon
+  Controlled Part: Brake-by-Wire(BBW)
+  Context: 1. Due to the brake-by-wire system misinterpreting the safety driver's input, causing the vehicle to stop abruptly.
+2. When the safety driver reacts to a false positive from the vehicle's sensor system, leading to unnecessary braking.
+3. Due to the safety driver pressing the brake pedal too hard due to an overestimation of the required stopping distance.
+4. When the brake-by-wire system fails to correctly modulate the braking force, leading to the vehicle stopping too soon.
+5. Due to the safety driver misjudging the speed of a vehicle ahead, causing an early brake application.
+6. When the safety driver is startled by an unexpected event, leading to a sudden brake application.
+7. Due to a malfunction in the brake-by-wire system that causes it to interpret a light brake application as a full stop command.
+8. When the safety driver is in a state of panic or stress, causing them to apply the brakes too early or too forcefully. 
+9
+  Linked Hazards: Based on the provided context and control action type 'stopped too soon', the potential hazards linked to the action could be identified as follows:
+
+[H1] Misinterpretation of the safety driver's input by the brake-by-wire system, causing the vehicle
+
+UCA6:
+  Controller: Safety Driver
+  CA Type: applied too long
+  Controlled Part: Brake-by-Wire(BBW)
+  Context: 1. Due to the safety driver's misunderstanding of the Brake-by-Wire system's functionality, the control action 'applied too long' occurs when the safety driver believes they need to apply the brakes longer to achieve the desired stopping effect.
+
+2. When the safety driver is experiencing fatigue or drowsiness, they may inadvertently apply the brake for a longer duration than necessary, leading to an 'applied too long' control action on the Brake-by-Wire system.
+
+3. Due to a sudden perceived emergency, such as a pedestrian unexpectedly crossing the road, the safety driver may apply the brake for too long, causing the Brake-by-Wire system to engage longer than required and potentially leading to a loss of control.
+
+4. When the safety driver is not adequately trained or familiar with the Brake-by-Wire system, they may overestimate the amount of time needed to apply the brake, resulting in the 'applied too long' control action.
+
+5. Due to a mechanical issue with the Brake
+  Linked Hazards: Based on the provided context, the potential hazard identifiers linked to the action could be:
+
+[H1] Misunderstanding of Brake-by-Wire system functionality by the safety driver
+
+[H1, H2] Misunderstanding of Brake-by-Wire system
+
+UCA7:
+  Controller: Safety Driver
+  CA Type: provides
+  Controlled Part: Brake-by-Wire(BBW)
+  Context: 1. due to the safety driver being fatigued and not reacting in time to an obstacle on the road
+2. when the safety driver is distracted by a mobile device and fails to apply the brake in time
+3. due to a sudden health issue of the safety driver, causing them to lose consciousness and not apply the brake
+4. when the safety driver misjudges the distance to the vehicle in front, leading to a late brake application
+5. due to the safety driver's lack of experience or training in handling emergency situations, leading to panic and improper brake application
+6. when the visibility is poor due to adverse weather conditions, causing the safety driver to not see an obstacle and apply the brake late
+7. due to a sudden mechanical failure in the Brake-by-Wire(BBW) system, causing the safety driver's brake application to not register
+8. when the safety driver is navigating through heavy traffic and fails to apply the brake in time due to distraction or stress
+  Linked Hazards: Based on the given contexts, the following hazard identifiers could be linked to the action:
+
+1. [H1] - This represents the hazard of the safety driver being fatigued and not reacting in time to an obstacle on the road.
+
+2.
+
+UCA8:
+  Controller: Safety Driver
+  CA Type: not provides
+  Controlled Part: Brake-by-Wire(BBW)
+  Context: 1. Due to the safety driver being unfamiliar with the Brake-by-Wire system, the safety driver does not provide the necessary control action to the BBW system when the vehicle is approaching a stop sign at high speed.
+
+2. When the safety driver is distracted by an incoming call on their personal phone, they fail to provide the necessary control action to the BBW system, causing the vehicle to not stop in time when a pedestrian suddenly crosses the road.
+
+3. Due to the safety driver's lack of training on how to handle emergency situations, they do not provide the necessary control action to the BBW system when the vehicle's automatic braking system fails to respond to a vehicle suddenly stopping in front of it.
+
+4. When the safety driver is experiencing fatigue after long hours of driving, they fail to provide the necessary control action to the BBW system, causing the vehicle to not maintain a safe distance with the vehicle in front.
+
+5. Due to the safety driver's over-reliance on the
+  Linked Hazards: Based on the provided context, here are the potential hazard identifiers that could be linked to the action:
+
+1. For the situation where the safety driver is unfamiliar with the Brake-by-Wire system and fails to provide the necessary control action when the vehicle is
+
+UCA9:
+  Controller: Safety Driver
+  CA Type: too early
+  Controlled Part: Brake-by-Wire(BBW)
+  Context: 1. due to the Safety Driver misjudging the distance to the vehicle ahead when driving in heavy traffic
+2. when the Safety Driver is distracted by an unexpected event on the roadside and applies the Brake-by-Wire (BBW) too early
+3. due to the Safety Driver being overly cautious in rainy or slippery conditions, causing them to activate the Brake-by-Wire (BBW) prematurely
+4. when the Safety Driver is not familiar with the Brake-by-Wire (BBW) system and applies the brake too early out of fear of not being able to stop the vehicle in time
+5. due to the Safety Driver misunderstanding traffic signals, leading to the premature activation of the Brake-by-Wire (BBW)
+6. when the Safety Driver is driving in an unfamiliar area with unpredictable traffic patterns, causing them to apply the Brake-by-Wire (BBW) too early
+7. due to the Safety Driver being startled by a sudden noise or movement inside the vehicle,
+  Linked Hazards: Based on the information provided, the potential hazards that could be linked to the 'too early' control action by the Safety Driver on the Brake-by-Wire (BBW) system could be identified as follows:
+
+[H1] Misjudgment of distance
+
+UCA10:
+  Controller: Safety Driver
+  CA Type: too late
+  Controlled Part: Brake-by-Wire(BBW)
+  Context: 1. Due to the safety driver being distracted by an incoming phone call, resulting in a delayed response to a sudden obstacle on the road.
+2. When the safety driver is suffering from fatigue and their reaction time is slower than usual, causing a delay in activating the Brake-by-Wire system.
+3. Due to the safety driver being inexperienced or not adequately trained in operating the Brake-by-Wire system, leading to a late response in a critical situation.
+4. When the safety driver is in a high-stress situation, such as heavy traffic or poor weather conditions, and fails to react promptly to a sudden stop requirement.
+5. Due to a temporary glitch or malfunction in the vehicle's other systems, causing a distraction for the safety driver and leading to a delayed response in activating the Brake-by-Wire system.
+6. When the safety driver is navigating through an unfamiliar route, causing them to focus more on the navigation system and less on the road, leading to a late brake response.
+7.
+  Linked Hazards: Based on the context provided, the possible hazard identifiers linked to the action can be:
+
+[H1] - Distraction due to incoming phone call leading to delayed brake response.
+[H1, H2] - Fatigue leading to slower reaction time and delayed
+
+UCA11:
+  Controller: Safety Driver
+  CA Type: stopped too soon
+  Controlled Part: Brake-by-Wire(BBW)
+  Context: 1. Due to the safety driver's misinterpretation of a pedestrian's intention to cross the road, the Brake-by-Wire (BBW) system was activated too soon, causing an abrupt stop. 
+
+2. When the safety driver is navigating through a busy city intersection, the Brake-by-Wire (BBW) system might halt the vehicle prematurely due to a misread signal or perceived threat.
+
+3. Due to the safety driver's excessive caution in poor weather conditions, the Brake-by-Wire (BBW) system might be triggered to stop the vehicle too soon, potentially causing a traffic disruption or accident.
+
+4. When the safety driver is in a high-stress situation, such as an emergency vehicle approaching from behind, the Brake-by-Wire (BBW) system might be activated too soon, resulting in an abrupt stop.
+
+5. Due to the safety driver's misunderstanding of autonomous vehicle capabilities, the Brake-by-Wire (BBW) system might be activated prematurely, causing the
+  Linked Hazards: Based on the given information, the following hazard identifiers could be linked to the action:
+
+[H1]: Misinterpretation of pedestrian intentions by the safety driver, leading to premature activation of the Brake-by-Wire (BBW) system.
+
+[H1,
+
+UCA12:
+  Controller: Safety Driver
+  CA Type: applied too long
+  Controlled Part: Brake-by-Wire(BBW)
+  Context: 1. Due to the safety driver's misjudgment of the vehicle's speed and distance to an obstacle ahead.
+2. When the safety driver is distracted by an emergency situation inside the vehicle, causing them to keep the brake applied for too long.
+3. Due to the safety driver's misunderstanding of the vehicle's braking system, resulting in overcompensation and prolonged application of the Brake-by-Wire system.
+4. When the safety driver is navigating through heavy traffic or hazardous road conditions and applies the brake for too long due to panic or fear.
+5. Due to the safety driver's lack of familiarity with the Brake-by-Wire system, causing them to apply the brakes for longer than necessary.
+6. When the safety driver is in a high-stress situation, such as during a high-speed chase or evasive maneuvering, and applies the brake for too long.
+7. Due to a mechanical failure or system error in the Brake-by-Wire system, causing the safety driver to apply the
+  Linked Hazards: Based on the provided context, the potential hazard identifiers linked to the action of the safety driver applying the Brake-by-Wire system for too long could be:
+
+[H1] - Hazard due to safety driver's misjudgment of vehicle's speed and distance
+
