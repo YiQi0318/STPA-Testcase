@@ -1,0 +1,44 @@
+Control Actions: CA1
+From Safety Driver
+To Brake-by-Wire(BBW)
+CA press brake pedal
+
+Control Actions: CA2
+From Safety Driver
+To Brake-by-Wire(BBW)
+CA EPB Switch ON
+
+Control Actions: CA3
+From Safety Driver
+To Brake-by-Wire(BBW)
+CA EPB Switch OFF
+
+Control Actions: CA4
+From Safety Driver
+To ADS
+CA Switch ON/OFF
+
+Control Actions: CA5
+From Safety Driver
+To ADS
+CA Destination
+
+Control Actions: CA6
+From ADS
+To Brake-by-Wire(BBW)
+CA Braking Torque
+
+Control Actions: CA7
+From ADS
+To Brake-by-Wire(BBW)
+CA ADS_EPB ON
+
+Control Actions: CA8
+From ADS
+To Brake-by-Wire(BBW)
+CA ADS_EPB OFF
+
+Control Actions: CA9
+From Brake-by-Wire(BBW)
+To Vehicle Actuators
+CA Brake Torque

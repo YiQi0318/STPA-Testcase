@@ -1,0 +1,9 @@
+Control Actions: CA1
+From Safety Driver
+To Brake-by-Wire(BBW)
+CA press brake pedal
+
+Control Actions: CA2
+From Safety Driver
+To Brake-by-Wire(BBW)
+CA EPB Switch ON
