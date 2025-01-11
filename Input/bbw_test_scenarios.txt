@@ -1,0 +1,41 @@
+
+Test Scenario:
+Scenery: - S1: Busy cityscape with high vehicular traffic. The safety driver is navigating through a complex traffic environment such as a crowded intersection or a busy highway. Suddenly, the vehicle in front comes to an abrupt stop. Due to being distracted by a mobile device, the safety driver is late in providing the Brake-by-Wire (BBW) command, leading to a potential accident. This scenario can be simulated on the CARLA simulator maps: Town03 and Town10, which offer complex urban
+Environment: Sure, here are the environment details for the given scenario under various weather and visibility conditions:
+
+Test Scenario 1:
+- Weather: Clear, sunny
+- Visibility: High, no obstructions (ClearNoon)
+
+Test Scenario 2:
+- Weather: Wet, cloudy
+- Visibility: Moderate, potential for glare from wet surfaces (WetCloudyNoon)
+
+Test Scenario 3:
+- Weather: Clear
+- Visibility: Low, due to setting sun (ClearSunset)
+
+Test Scenario
+Dynamic elements: Test Scenario:
+
+- DE1: Safety Driver (The Safety Driver in the CARLA simulator is the controller who is supposed to provide the control action. In this scenario, the safety driver is distracted by a mobile device.)
+
+- DE2: Brake-by-Wire (BBW) System (The controlled part is the Brake-by-Wire system. In the CARLA simulator, the BBW system can be programmed to react according to the safety driver's control.)
+
+- DE3: Vehicle in Front (
+Context: Test Scenario:
+
+- TS1: The Safety Driver is in the vehicle, controlling the Brake-by-Wire (BBW) system. The Safety Driver is distracted by a mobile device, indicating a potential risk.
+
+- TS2: The vehicle is on a road with various static and dynamic obstacles positioned around. These could include other vehicles, pedestrians, road signs, etc. This adds an element of unpredictability to the scenario.
+
+- TS3: The vehicle in front of the Safety Driver's vehicle suddenly
+Pass criteria: Pass Criteria for a Test Scenario:
+
+1. What could trigger the incorrect decisions of CA?
+   - The test scenario passes if the Safety Driver's distraction due to a mobile device triggers the incorrect decision of providing Brake-by-Wire (BBW) when the vehicle in front suddenly stops. This means that the safety driver should be unable to provide the correct brake response due to the distraction.
+
+2. How could correct decisions on CA become unsafe?
+   - The test scenario passes if even correct decisions on Brake-by-Wire (BBW) provision by the Safety Driver become unsafe due to external factors. This could be the sudden stop of the vehicle in front, causing a potential collision despite the correct brake response.
+
+In summary, the pass criteria for this test
